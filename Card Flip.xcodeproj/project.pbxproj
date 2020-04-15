@@ -14,6 +14,7 @@
 		AE38416324478871008B0D77 /* Card_Flip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE38416124478871008B0D77 /* Card_Flip.xcdatamodeld */; };
 		AE38416524478872008B0D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE38416424478872008B0D77 /* Assets.xcassets */; };
 		AE38416824478872008B0D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE38416624478872008B0D77 /* LaunchScreen.storyboard */; };
+		AE85FE1224479305001E7B31 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = AE85FE1124479305001E7B31 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AE38416424478872008B0D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE38416724478872008B0D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE38416924478872008B0D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE85FE1124479305001E7B31 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		AE85FE1324479336001E7B31 /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				AE85FE0924478C47001E7B31 /* Gameplay Page */,
+				AE85FE0D24479055001E7B31 /* LeaderBoard */,
+				AE85FE0E24479063001E7B31 /* Profile Page */,
 				AE38416424478872008B0D77 /* Assets.xcassets */,
 				AE38416924478872008B0D77 /* Info.plist */,
 				AE38416124478871008B0D77 /* Card_Flip.xcdatamodeld */,
+				AE85FE1124479305001E7B31 /* Sounds */,
+				AE85FE1324479336001E7B31 /* GothamRounded-Book.otf */,
 			);
 			path = "Card Flip";
 			sourceTree = "<group>";
@@ -84,6 +91,20 @@
 				AE38415A24478871008B0D77 /* SceneDelegate.swift */,
 			);
 			path = "Default Files";
+			sourceTree = "<group>";
+		};
+		AE85FE0D24479055001E7B31 /* LeaderBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeaderBoard;
+			sourceTree = "<group>";
+		};
+		AE85FE0E24479063001E7B31 /* Profile Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +167,7 @@
 			files = (
 				AE38416824478872008B0D77 /* LaunchScreen.storyboard in Resources */,
 				AE38416524478872008B0D77 /* Assets.xcassets in Resources */,
+				AE85FE1224479305001E7B31 /* Sounds in Resources */,
 				AE38416024478871008B0D77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
