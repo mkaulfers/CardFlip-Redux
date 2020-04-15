@@ -5,6 +5,7 @@ The intention of this repo is to fully re-work my initial CardFlip and bring ove
 
 ##TODO: 
 * Import Assets
+* Import App Icon Set
 * Re-build UI (iPhone & iPad)
 * Import Core Code
 * Setup Firestore & Fireauth

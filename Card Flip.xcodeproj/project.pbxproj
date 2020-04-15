@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE38415924478871008B0D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38415824478871008B0D77 /* AppDelegate.swift */; };
 		AE38415B24478871008B0D77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38415A24478871008B0D77 /* SceneDelegate.swift */; };
-		AE38415D24478871008B0D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38415C24478871008B0D77 /* ViewController.swift */; };
+		AE38415D24478871008B0D77 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38415C24478871008B0D77 /* GameView.swift */; };
 		AE38416024478871008B0D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE38415E24478871008B0D77 /* Main.storyboard */; };
 		AE38416324478871008B0D77 /* Card_Flip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE38416124478871008B0D77 /* Card_Flip.xcdatamodeld */; };
 		AE38416524478872008B0D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE38416424478872008B0D77 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		AE38415524478871008B0D77 /* Card Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE38415824478871008B0D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE38415A24478871008B0D77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE38415C24478871008B0D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE38415C24478871008B0D77 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		AE38415F24478871008B0D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE38416224478871008B0D77 /* Card_Flip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card_Flip.xcdatamodel; sourceTree = "<group>"; };
 		AE38416424478872008B0D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +44,7 @@
 			children = (
 				AE38415724478871008B0D77 /* Card Flip */,
 				AE38415624478871008B0D77 /* Products */,
+				AE85FE0A24478C5A001E7B31 /* Default Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +59,31 @@
 		AE38415724478871008B0D77 /* Card Flip */ = {
 			isa = PBXGroup;
 			children = (
-				AE38415824478871008B0D77 /* AppDelegate.swift */,
-				AE38415A24478871008B0D77 /* SceneDelegate.swift */,
-				AE38415C24478871008B0D77 /* ViewController.swift */,
-				AE38415E24478871008B0D77 /* Main.storyboard */,
+				AE85FE0924478C47001E7B31 /* Gameplay Page */,
 				AE38416424478872008B0D77 /* Assets.xcassets */,
-				AE38416624478872008B0D77 /* LaunchScreen.storyboard */,
 				AE38416924478872008B0D77 /* Info.plist */,
 				AE38416124478871008B0D77 /* Card_Flip.xcdatamodeld */,
 			);
 			path = "Card Flip";
+			sourceTree = "<group>";
+		};
+		AE85FE0924478C47001E7B31 /* Gameplay Page */ = {
+			isa = PBXGroup;
+			children = (
+				AE38415E24478871008B0D77 /* Main.storyboard */,
+				AE38415C24478871008B0D77 /* GameView.swift */,
+			);
+			path = "Gameplay Page";
+			sourceTree = "<group>";
+		};
+		AE85FE0A24478C5A001E7B31 /* Default Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE38416624478872008B0D77 /* LaunchScreen.storyboard */,
+				AE38415824478871008B0D77 /* AppDelegate.swift */,
+				AE38415A24478871008B0D77 /* SceneDelegate.swift */,
+			);
+			path = "Default Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE38415D24478871008B0D77 /* ViewController.swift in Sources */,
+				AE38415D24478871008B0D77 /* GameView.swift in Sources */,
 				AE38415924478871008B0D77 /* AppDelegate.swift in Sources */,
 				AE38416324478871008B0D77 /* Card_Flip.xcdatamodeld in Sources */,
 				AE38415B24478871008B0D77 /* SceneDelegate.swift in Sources */,
